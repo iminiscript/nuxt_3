@@ -6,16 +6,19 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
     
     const props = defineProps({
         title: String
     })
 
-    const Subtitle = ref('This is static Data Subtitle using ref')
-
+    const Subtitle = ref('Please enter the Movie Title below in Input field')
+    
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+
+div {
+    text-align: center;
+}
 
 </style>

@@ -7,6 +7,8 @@
       title="This is Nested Title"
       subTitle="This is Nested SubTitle"
       />
+
+      <nuxt-link to="/teams/footbal/user/player_1">Footbal Team Player 1</nuxt-link>
   </div>
 </template>
 
