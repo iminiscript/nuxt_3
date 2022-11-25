@@ -9,6 +9,17 @@
   </div>
 </template>
 
+<script setup>
+  useHead({
+    titleTemplate: (titleChunk) => {
+      return titleChunk ? `${titleChunk} - My Movie Site` : `My Movie site`
+    },
+    meta: [
+      { name: 'description', content: 'Test'},
+    ]
+  })
+</script>
+
 
 
 <style>
